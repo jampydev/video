@@ -1,0 +1,120 @@
+
+
+
+
+
+/* General */
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    background-color: black;
+
+}
+
+
+
+/* Animaciones */
+.fade-in {
+
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/* Títulos */
+h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    color: wheat;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+
+
+/* Botón */
+
+
+button {
+
+    padding: 20px 36px;
+    margin-top: 60px;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 26px;
+    border: 1px solid white;
+    transition: all 0.6s ease; /* Animación más lenta */
+
+}
+
+button:hover {
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+
+
+
+/* Responsividad */
+
+
+        
+
+@media screen and (max-width: 720px) {
+  
+
+
+    h1 {
+
+
+font-size: 26px;
+display: block;
+
+
+    }
+
+
+
+    video {
+
+ width: 400px;
+
+ height: 280px;
+
+
+
+    }
+
+
+   button {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+}
+
+
